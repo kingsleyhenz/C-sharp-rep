@@ -47,13 +47,12 @@
 
              Console.WriteLine("Enter second number: ");
              int secondnum = Convert.ToInt32(Console.ReadLine());
-
-
-             Console.WriteLine(Calc(firstnum, operate, secondnum));
-             Console.ReadLine();
+            */
+            Console.WriteLine(vowelCount("kingsley"));
+            Console.ReadLine();   
          }
 
-         static int Calc(int a, int choice, int b)
+       /*  static int Calc(int a, int choice, int b)
          {
              String messages = "Goodbye";
              switch (choice)
@@ -103,7 +102,8 @@
                      }
                  }*/
 
-            String S1 = "hello";
+                /*STRING METHODS*/
+            /*String S1 = "hello";
             char[] nm = { 's', 'o', 'p', 'h', 'i', 'a' };
             String S2 = new(nm);
             Console.WriteLine(S2);
@@ -120,6 +120,15 @@
             String msg = "success requires dedication";
             int index = msg.IndexOf("r");
             Console.WriteLine(index);
+            */
+            static int vowelCount(String str)
+            {
+             int count = 0;
+                if (str.Contains("a") || str.Contains("e") || str.Contains("i") || str.Contains("o") || str.Contains("u"))
+                {
+                    count++;
+                }
+                return count;
+            }
         }
     }
-}
