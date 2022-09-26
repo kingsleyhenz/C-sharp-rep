@@ -101,7 +101,6 @@
             {
                 Console.WriteLine(mystr);
             }
-            */
 
             String s1 = "Love is not Enough";
             char[] ch = s1.ToCharArray();
@@ -109,6 +108,11 @@
             {
                 Console.WriteLine(c);
             }
+            */
+
+            String s1 = "  life is not easy";
+            String s2 = s1.Trim();
+            Console.WriteLine(s2);
 
 
 
