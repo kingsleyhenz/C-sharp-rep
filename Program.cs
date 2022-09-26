@@ -89,11 +89,19 @@
                     count++;
                 }
                 return count;
-            */
 
             String[] s1 = { "i love", "them big"};
             String s2 = String.Join("-", s1);
             Console.WriteLine(s2);
+
+            */
+
+            String s1 = "Hello Aptech PH";
+            String[] s2 = s1.Split(' ');
+            foreach(String mystr in s2)
+            {
+                Console.WriteLine(mystr);
+            }
 
             }
         }
