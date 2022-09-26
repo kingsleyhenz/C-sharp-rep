@@ -94,7 +94,6 @@
             String s2 = String.Join("-", s1);
             Console.WriteLine(s2);
 
-            */
 
             String s1 = "Hello Aptech PH";
             String[] s2 = s1.Split(' ');
@@ -102,6 +101,17 @@
             {
                 Console.WriteLine(mystr);
             }
+            */
+
+            String s1 = "Love is not Enough";
+            char[] ch = s1.ToCharArray();
+            foreach(char c in ch)
+            {
+                Console.WriteLine(c);
+            }
+
+
+
 
             }
         }
