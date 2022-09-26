@@ -4,6 +4,7 @@
     {
         static void Main(String[] args)
         {
+            /*<<<<>>>> INTRODUCTION INTO THE BASICS <<<<>>>>*/
             /*Console.WriteLine("Hello, World!");
             int a = 10;
             int b = 20;
@@ -37,58 +38,17 @@
             int sum = firstnum + secondnum;
             Console.WriteLine("The answer of " + firstnum + " and " + secondnum + " is " + sum);*/
 
-            /*Console.WriteLine(AddTwo(3,3));*/
-            /*Console.WriteLine(Fac(10));*/
-            /* Console.WriteLine("Please select from option: \n 1: Add \n 2: Subtract \n 3: Multiply \n 4: Divide \n 5: Exit");
-             int operate = Convert.ToInt32(Console.ReadLine());
-
-             Console.WriteLine("Enter first number: ");
-             int firstnum = Convert.ToInt32(Console.ReadLine());
-
-             Console.WriteLine("Enter second number: ");
-             int secondnum = Convert.ToInt32(Console.ReadLine());
-            */
-            Console.WriteLine(vowelCount("kingsley"));
-            Console.ReadLine();   
-         }
-
-       /*  static int Calc(int a, int choice, int b)
-         {
-             String messages = "Goodbye";
-             switch (choice)
+            /* static int Fac(int num)
              {
-                 case 1:
-                     return a + b;
-                     break;
-                 case 2:
-                     return a - b;
-                     break;
-                 case 3:
-                     return a * b;
-                     break;
-                 case 4:
-                     return a / b;
-                     break;
-                 case 5:
-                     break;
-                 default:
-                     break;
-             }
-             {
-
-             }
-
-        /* static int Fac(int num)
-         {
-             if(num <= 2)
-             {
-                 return num;
-             }
-             else
-             {
-                 return num * Fac(num - 1);
-             }
-         }*/
+                 if(num <= 2)
+                 {
+                     return num;
+                 }
+                 else
+                 {
+                     return num * Fac(num - 1);
+                 }
+             }*/
 
             /*static int AddTwo(int a, int b)
             {
@@ -102,7 +62,7 @@
                      }
                  }*/
 
-                /*STRING METHODS*/
+            /*<<<<>>>> STRING METHODS <<<<>>>>*/
             /*String S1 = "hello";
             char[] nm = { 's', 'o', 'p', 'h', 'i', 'a' };
             String S2 = new(nm);
@@ -120,7 +80,7 @@
             String msg = "success requires dedication";
             int index = msg.IndexOf("r");
             Console.WriteLine(index);
-            */
+            
             static int vowelCount(String str)
             {
              int count = 0;
@@ -129,6 +89,12 @@
                     count++;
                 }
                 return count;
+            */
+
+            String[] s1 = { "i love", "them big"};
+            String s2 = String.Join("-", s1);
+            Console.WriteLine(s2);
+
             }
         }
     }
