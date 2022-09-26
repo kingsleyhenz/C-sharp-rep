@@ -112,7 +112,6 @@
             String s1 = "  life is not easy";
             String s2 = s1.Trim();
             Console.WriteLine(s2);
-            */
 
             String s1 = "This is Aptech #";
             char[] ch = {'#'};
@@ -123,7 +122,32 @@
             char[] cho = { '0' };
             String newPhone = Phone.TrimStart(cho);
             Console.WriteLine("Your Phone Number is " + "+234" + newPhone);
-            
+            */
+
+                string para = "(()";
+                int open = 0;
+                int close = 0;
+                int valid = 0;
+                for(int i =0; i < para.Length; i++)
+                {
+                    if (para[i] == '(')
+                    {
+                        open++;
+                    }else if (para[i] == ')')
+                    {
+                        close++;
+                    }
+                }
+                if(open > close)
+                {
+                    valid = close * 2;
+                }
+                else
+                {
+                    valid = open * 2;
+                }
+                Console.WriteLine(valid);
+               
 
 
 
