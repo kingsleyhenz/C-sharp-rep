@@ -117,7 +117,9 @@
             String fullname = String.Concat(fname, lname);
             Console.WriteLine(fullname);
 
-
+            String msg = "success requires dedication";
+            int index = msg.IndexOf("r");
+            Console.WriteLine(index);
         }
     }
 }
