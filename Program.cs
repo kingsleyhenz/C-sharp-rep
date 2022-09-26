@@ -108,12 +108,22 @@
             {
                 Console.WriteLine(c);
             }
-            */
 
             String s1 = "  life is not easy";
             String s2 = s1.Trim();
             Console.WriteLine(s2);
+            */
 
+            String s1 = "This is Aptech #";
+            char[] ch = {'#'};
+            Console.WriteLine(s1.TrimEnd(ch));
+
+            Console.WriteLine("Enter Your Phone Number");
+            String Phone = Console.ReadLine();
+            char[] cho = { '0' };
+            String newPhone = Phone.TrimStart(cho);
+            Console.WriteLine("Your Phone Number is " + "+234" + newPhone);
+            
 
 
 
